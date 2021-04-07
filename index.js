@@ -15,3 +15,5 @@ function greet(time) {
   console.log(hour);
 }
 /* Write your implementation of displayMessage() */
+
+greet('11:12')
