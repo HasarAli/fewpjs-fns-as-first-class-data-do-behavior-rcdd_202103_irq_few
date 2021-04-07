@@ -13,12 +13,12 @@ function handleClick(e) {
 function greet(time) {
   const hour = parseInt(time.split(':')[0]);
   console.log(hour);
-  // if (hour < 12)
-  //   return 'Good Morning';
-  // else if (hour <= 5)
-  //   return 'Good Afternoon'
-  // else
-  //   return 'Good Evening'
+  if (hour < 12)
+    return 'Good Morning';
+  else if (hour <= 5)
+    return 'Good Afternoon'
+  else
+    return 'Good Evening'
 }
 /* Write your implementation of displayMessage() */
 
