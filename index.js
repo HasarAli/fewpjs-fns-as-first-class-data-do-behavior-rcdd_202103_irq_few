@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  const hour = time.split(':').[0];
+  const hour = time.split(':')[0];
   console.log(hour);
 }
 /* Write your implementation of displayMessage() */
