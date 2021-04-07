@@ -19,6 +19,7 @@ function greet(time) {
   else
     return 'Good Evening'
 }
+
 /* Write your implementation of displayMessage() */
 function displayMessage(msg) {
   document.querySelector('#greeting').innerText = msg;
