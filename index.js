@@ -23,4 +23,3 @@ function greet(time) {
 function displayMessage(msg) {
   document.querySelector('#greeting').innerText = msg;
 }
-greet('11:12')
